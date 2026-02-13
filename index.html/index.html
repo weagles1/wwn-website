@@ -118,7 +118,57 @@
   <h2>Championship</h2>
 
   <div class="card">
-    <p>🏆 WWN World Championship</p>
+    <p>🏆 WWN World Championship</p><!DOCTYPE html>
+<html>
+<head>
+  <title>My Music Page</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin-top: 100px;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 10px;
+      border: none;
+      background-color: red;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: darkred;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Dreams and Nightmares 🎵</h1>
+
+  <button onclick="playMusic()">Play</button>
+  <button onclick="pauseMusic()">Pause</button>
+
+  <audio id="music" loop>
+    <source src="dreams-and-nightmares.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    function playMusic() {
+      document.getElementById("music").play();
+    }
+
+    function pauseMusic() {
+      document.getElementById("music").pause();
+    }
+  </script>
+
+</body>
+</html>
     <p>Current
       
       
