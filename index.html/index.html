@@ -1,6 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WWN - World Wrestling Neighbourhood</title>
 
-      width: 300px;
-      border-radius: 10px;
+  <style>
+    body {
+      background: radial-gradient(circle, #111, #000);
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      text-align: center;
+    }
+
+    header {
+      background: linear-gradient(to right, darkred, red, darkred);
+      padding: 25px;
+      font-size: 36px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      box-shadow: 0 0 15px red;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    h2 {
+      color: gold;
+      text-shadow: 0 0 5px red;
+    }
+
+    .card {
+      background: #222;
+      margin: 20px auto;
+      padding: 15px;
+      border-radius: 15px;
+      width: 320px;
+      box-shadow: 0 0 15px red;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    img {
+      width: 100%;
+      border-radius: 12px;
+      border: 2px solid gold;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: #333;
+      margin: 6px;
+      padding: 8px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px gold;
+    }
+
+    footer {
+      background: black;
+      padding: 12px;
+      margin-top: 20px;
+      color: gray;
     }
   </style>
 </head>
@@ -8,33 +75,66 @@
 <body>
 
 <header>
-  🥊 WWN - World Wrestling Neighbourhood
+  🏆 WWN - World Wrestling Neighbourhood 🏆
 </header>
 
 <section>
   <h2>Welcome to WWN</h2>
-  <p>The best wrestling in the neighbourhood!</p>
+  <p>The toughest superstars in the neighbourhood!</p>
 </section>
 
 <section>
-  <h2>Superstars</h2>
+  <h2>WWN Superstars</h2>
+
   <div class="card">
-    <p>🔥 colin otc</p>
+    <img src="superstars1.jpg" alt="WWN Superstars">
+    <p><strong>Main Roster</strong></p>
+    <ul>
+      <li>Conner</li>
+      <li>Colin</li>
+      <li>Brendan</li>
+      <li>Dom</li>
+    </ul>
   </div>
+
   <div class="card">
-    <p>💪 john 2</p>
+    <img src="superstars2.jpg" alt="WWN Superstars">
+    <p><strong>Rising Stars</strong></p>
+    <ul>
+      <li>John</li>
+      <li>Ryan</li>
+      <li>Brogan</li>
+      <li>Colin P</li>
+    </ul>
   </div>
 </section>
 
 <section>
-  <h2>Matches</h2>
+  <h2>Upcoming Matches</h2>
+
   <div class="card">
-    <p>Superstar 1 vs Superstar 2</p>
+    <p>🔥 Main Event: Conner vs Brendan</p>
+    <p>Date: Coming Soon</p>
+  </div>
+
+  <div class="card">
+    <p>Tag Team Match: Colin & Dom vs John & Ryan</p>
+    <p>Date: Next Show</p>
   </div>
 </section>
 
 <section>
-  <h2>Updates</h2>
+  <h2>Championship</h2>
+
   <div class="card">
-    <p>Next big match 
-}
+    <p>🏆 WWN World Championship</p>
+    <p>Current Champion: TBD</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 WWN - World Wrestling Neighbourhood
+</footer>
+
+</body>
+</html>
