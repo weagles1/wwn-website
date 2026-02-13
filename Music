@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Player</title>
+</head>
+<body style="background:black; color:white; text-align:center; margin-top:100px;">
+
+<h1>Music</h1>
+
+<button onclick="playMusic()">Play</button>
+<button onclick="pauseMusic()">Pause</button>
+
+<audio id="music" controls>
+  <source src="dreams-and-nightmares.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+function playMusic() {
+  document.getElementById("music").play();
+}
+
+function pauseMusic() {
+  document.getElementById("music").pause();
+}
+</script>
+
+</body>
+</html>
